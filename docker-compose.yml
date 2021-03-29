@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+
+  sample:
+    container_name: reactdocker
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: npm run dev
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - 90:3007
+    environment:
+      - CHOKIDAR_USEPOLLING=true
