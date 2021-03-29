@@ -1,4 +1,4 @@
-## This React Project is being Dockerized
+## This React Project is being Dockerized and Server Rendered
 
 ## In order to run this project from your Ubuntu Terminal
 
@@ -6,12 +6,17 @@
 
 ## To run through docker:
 
-    $ sudo docker run -it react bash
-    $ npm start
+    $ docker-compose build
+    $ docker-compose up
 
 ## To start locally, Simply:
 
     $ npm start
+
+## For server render:
+
+    # npm run dev
+
 
 
 
