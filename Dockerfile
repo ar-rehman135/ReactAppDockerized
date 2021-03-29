@@ -21,3 +21,5 @@ CMD [ "npm", "start" ]
 # for run docker
 
 # sudo docker run -it react bash
+
+# sudo docker image build -t react .
