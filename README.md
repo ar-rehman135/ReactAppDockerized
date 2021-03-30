@@ -1,3 +1,5 @@
+# React Template With Server Rendering and Dockerized
+
 ## This React Project is being Dockerized and Server Rendered
 
 ## In order to run this project from your Ubuntu Terminal
@@ -17,8 +19,22 @@
 
     # npm run dev
 
+# Note: 
 
+    In order to run this project:
+    You must have installed Reactjs, Docker, Docker-compose.
 
+# In order to install Reactjs:
+
+    sudo apt-get install nodejs -y
+
+# Installing create-react-app:
+
+    npm install -g create-react-app
+
+# Creating React app:
+
+    npx create-react-app <your_app_name>
 
 
 
